@@ -1,8 +1,8 @@
 ##Sharing Guidebook Roadmap
 
 ####Goals
-- [ ] Add Framingham Study
-- [ ] Add Nurses Health Study
-- [ ] Add Geisinger's MyCode
+- [ ] Add Mock-up Example of submission by exper
+- [ ] Clean-up old text
+- [ ] Find new illustration
 
 
