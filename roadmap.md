@@ -1,11 +1,6 @@
 ##Privacy Resource Roadmap
 
 ####Goals
-- [ ] Add Mock-up Example of submission by exper
-- [ ] Clean-up old text
-- [ ] Find new illustration
-
-
 A curated educational resource for people who want to design biomedical research studies that practice “open science”. What do they need to know about privacy?
 
 We are surveying thought leaders in privacy and sharing in biomedical research and asking them to list a few of their favorite resources  that would be useful for someone trying to design a biomedical research study that includes open science practice.
@@ -35,3 +30,8 @@ Some people we plan to solicit resources from:
 * Barbara Prainsack, King’s Colege London
 * Jeantine Lunshof, Harvard PGP
 * Michelle Meyer
+
+To do's
+- [ ] Add Mock-up Example of submission by expert
+- [ ] Find new illustration
+- [ ] Generate list of questions experts can field
