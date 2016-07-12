@@ -23,24 +23,24 @@ body * {
 h1 {
   font-size: 32px;
   margin: 0 0 35px 0;
-  color: #273D44;
+  color: #4b244a;
   position: relative;
   line-height: 120%;
 }
 h2 {
   font-size: 32px;
   font-style: italic;
-  color: #2581B7;
+  color: #25171a;
   margin: 30px 0 20px 0;
 }
 h3 {
-  color: #2581B7;
+  color: #25171a;
   font-size: 20px;
   font-weight: 500;
   margin: 20px 0 8px 0;
 }
 h4 {
-  color: #273D44;
+  color: #4b244a;
   margin: 0 0 10px 0;
   font-size: 18px;
 }
@@ -72,17 +72,17 @@ ul li:before {
 }
 strong {
   font-weight: 500;
-  color: #273D44;
+  color: #4b244a;
 }
 p {
   margin: 0 0 30px 0;
 }
 a {
-  color: #089970;
+  color: #533a7b;
   transition: background 0.05s ease-out;
 }
 a:hover {
-  background: #E4F7F0;
+  background: #98C1D9;
 }
 article {
   max-width: 750px;
@@ -105,8 +105,8 @@ article {
 .example {
   display: flex;
   margin: 35px 0 40px 0;
-  background: #E0F3FF;
-  color: #2581B7;
+  background: #98c1d9;
+  color: #25171a;
   padding: 30px 35px;
 }
 .example .title {
@@ -135,7 +135,7 @@ article {
   top: 4px;
   height: calc(100% - 8px);
   position: absolute;
-  background: #CAE8FA;
+  background: #6969b3;
 }
 .example .content p:last-child {
   margin: 0;
@@ -166,14 +166,14 @@ article {
   left: 0;
   top: 5px;
   position: absolute;
-  background: #CAE8FA;
+  background: #6969b3;
 }
 .meta-information .details {
   flex: 1;
 }
 .meta-information .details time,
 .meta-information .details .difficulty {
-  color: #2581B7;
+  color: #25171a;
   font-weight: 700;
   margin-bottom: 3px;
   display: block;
@@ -200,7 +200,7 @@ article {
   margin-bottom: 0;
 }
 aside {
-  background: #4F99C4;
+  background: #533a7b;
   position: fixed;
   height: 100vh;
   width: 230px;
@@ -230,17 +230,17 @@ nav a {
 }
 nav a.selected,
 nav a.selected:hover {
-  background: #2581B7;
+  background: #25171a;
   color: white;
   font-weight: 500;
 }
 nav a:hover {
-  background: #2F8DBC;
+  background: #4b244a;
   color: #ffffff;
 }
 nav a:after {
   content: "";
-  background: url(../images/nav-selected-indicator.svg);
+  background: url(../assets/images/nav-selected-indicator.svg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -269,7 +269,7 @@ nav a.selected:after {
   font-size: 22px;
   margin: 0 0 6px 0;
   padding: 0;
-  color: #2581B7;
+  color: #25171a;
 }
 .steps time {
   margin: 0 0 10px 0;
@@ -297,7 +297,7 @@ nav a.selected:after {
   position: absolute;
   bottom: -2px;
   height: 2px;
-  background: #CAE8FA;
+  background: #6969b3;
   width: 35%;
   left: calc(22% + 50px);
 }
@@ -314,8 +314,8 @@ nav a.selected:after {
   top: -10px;
   font-weight: 400;
   font-size: 22px;
-  color: #2581B7;
-  border: solid 2px #CAE8FA;
+  color: #25171a;
+  border: solid 2px #6969b3;
   height: 43px;
   width: 43px;
   text-align: center;
@@ -368,7 +368,7 @@ nav a.selected:after {
 .steps ul li h2,
 .steps ol li h2 {
   font-size: 15px;
-  color: #273D44;
+  color: #4b244a;
   font-style: normal;
   font-weight: 500;
   margin: 0;
@@ -390,7 +390,7 @@ nav a.selected:after {
 .glossary .term h3 {
   font-weight: 500;
   font-size: 16px;
-  color: #273D44;
+  color: #4b244a;
   margin: 0;
 }
 .glossary .term p {

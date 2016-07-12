@@ -7,8 +7,11 @@ We are surveying thought leaders in privacy and sharing in biomedical research a
 
 The types of things you might include on your list are:
 * Written Cases of Interest, e.g. OK Cupid (what not to do)
-* Educational Guides, e.g. FPF’s new chart
+* Educational Guides, e.g. 
+*   FPF’s new chart
 https://fpf.org/wp-content/uploads/2016/04/FPF_Visual-Guide-to-Practical-Data-DeID.pdf
+It's your data
+https://www.healthit.gov/sites/default/files/YourHealthInformationYourRights_Infographic-Web.pdf
 * Toolkits, e.g. Participant-Centered Consent Toolkit
 * Legal stuff, e.g. something about HIPAA, Common Rule, etc.
 * Published articles, e.g. “sharing by design” 
