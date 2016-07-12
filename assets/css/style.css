@@ -23,7 +23,7 @@ body * {
 h1 {
   font-size: 32px;
   margin: 0 0 35px 0;
-  color: #4b244a;
+  color: #273D44;
   position: relative;
   line-height: 120%;
 }
@@ -40,7 +40,7 @@ h3 {
   margin: 20px 0 8px 0;
 }
 h4 {
-  color: #4b244a;
+  color: #273D44;
   margin: 0 0 10px 0;
   font-size: 18px;
 }
@@ -51,7 +51,7 @@ li {
 }
 ul,
 ol {
-  margin: 0 0 30px 0;
+  margin: 0 0 30px 30px;
 }
 ul li,
 ol li {
@@ -72,17 +72,17 @@ ul li:before {
 }
 strong {
   font-weight: 500;
-  color: #4b244a;
+  color: #273D44;
 }
 p {
   margin: 0 0 30px 0;
 }
 a {
-  color: #533a7b;
+  color: #089970;
   transition: background 0.05s ease-out;
 }
 a:hover {
-  background: #98C1D9;
+  background: #E4F7F0;
 }
 article {
   max-width: 750px;
@@ -368,7 +368,7 @@ nav a.selected:after {
 .steps ul li h2,
 .steps ol li h2 {
   font-size: 15px;
-  color: #4b244a;
+  color: #273D44;
   font-style: normal;
   font-weight: 500;
   margin: 0;
@@ -390,7 +390,7 @@ nav a.selected:after {
 .glossary .term h3 {
   font-weight: 500;
   font-size: 16px;
-  color: #4b244a;
+  color: #273D44;
   margin: 0;
 }
 .glossary .term p {
@@ -421,3 +421,4 @@ nav a.selected:after {
 .resources .resource p {
   margin: 10px 0 0 0;
 }
+
