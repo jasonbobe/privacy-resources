@@ -1,3 +1,5 @@
 
 ##About this Project
-Would you like to add an entry to the sharing guidebook? Great! I'd love to hear from you.
+Would you like to add a resource? Great! I'd love to hear from you.
+
+Please email me your resource. Thank you.
