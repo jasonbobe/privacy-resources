@@ -33,6 +33,7 @@ Some people we plan to solicit resources from:
 * Barbara Prainsack, King’s Colege London
 * Jeantine Lunshof, Harvard PGP
 * Michelle Meyer
+* Joel Gurin, Open Data Enterprise
 
 To do's
 - [ ] Add Mock-up Example of submission by expert
