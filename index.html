@@ -22,17 +22,7 @@
       	<a href="#about">About</a>
         <a href="#experts">Contributors</a>
         <a href="#topics">Topics</a>
- <!--
-        <a href="#expert-2">John Wilbanks</a>
-        <a href="#expert-3">More Experts </a>
-        <a href="http://blog.jasonbobe.net/privacy-resources/topics/">Topics</a>
--->
-
-	<!--
-		<a href="#precendents">Sharing Precedents</a>
-		<a href="#glossary">Glossary</a>
-	-->
-		
+	
       </nav>
     </aside>
 
@@ -430,6 +420,8 @@
       		<li>
 					For everybody working in Europe, or collaborating with European organisations: The UK’s Information Commissioner’s Office created this very helpful (and accessible) <a href="https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/">guide to the new European General Data Protection Regulation (GDPR)</a>. 
       		</li>
+      		<li>Guidance on the deidentification is, by necessity, abstract. But recent guidance documents produced by the <a href="http://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/understanding/coveredentities/De-identification/hhs_deid_guidance.pdf">Department of Health & Human Services</a> and by the <a href="https://ico.org.uk/media/1061/anonymisation-code.pdf">United Kingdom’s Information Commissioner’s Office</a> do a better job than most explaining what types of factors and qualities make data more likely to attract a reidentification attack, and more vulnerable to an attack once attempted.
+      				</li>
 		
 	</ul>
 
@@ -441,7 +433,15 @@
       		<li>Danish researchers publicly released data from dating site, OK Cupid, without permission from users. An instant classic of how not to behave as a researcher. See summary of the case in the <a href="http://www.dailydot.com/debug/okcupid-user-data-researchers/">Daily Dot</a></li>
 		
 		<li>Typically, re-identification is about the threat of third parties being able to identify anonymous participants. In one recent case, a participant was able to <a href="http://www.sciencemag.org/news/2016/05/cholesterol-study-volunteer-unsettling-discovery-science-paper-herself">identify a sketch of her own profile</a> while reading a news article about a research study she volunteered for.</li>
-		
+		<li>From Jane Bambauer: As for the debate about reidentification risk and open data, in addition to the excellent resources provided by others, I recommend Felix Wu’s work on the subject, <a href="http://lawreview.colorado.edu/wp-content/uploads/2013/11/13.-Wu_710_s.pdf">Defining Privacy and Utility in Data Sets</a>, and Khaled El Emam et al., <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0028071">A Systematic Review of Re-Identification Attacks on Health Data</a>.
+      				
+<br /><br />When data has been deidentified, reidentification attacks can be overwhelmed with false matches—a fact that is often overlooked in the popular press. Three examples are available <a href="https://www.researchgate.net/publication/277572042_Intruder_Testing_on_the_2011_UK_Census_Providing_Practical_Evidence_for_Disclosure_Protection">here</a> (matching attacks correct at most 47% of the time), <a href="https://www.researchgate.net/publication/261452742_Exploring_re-identification_risks_in_public_domains">here</a> (matching attacks correct 5-63% of the time), and <a href="http://www.ehcca.com/presentations/HIPAAWest4/lafky_2.pdf">here</a> (only two out of twenty-eight reidentifications were correct).
+
+<br /><br />The sense of risk is also exaggerated when uniqueness within a deidentified database is used as an estimate for reidentification risk, and when bad anonymization techniques are used as a representation of all anonymization techniques. Compare <a href="http://science.sciencemag.org/content/347/6221/536.full">this paper published in Science</a> (concluding that credit card data cannot be safely anonymized) to <a href="http://science.sciencemag.org/content/351/6279/1274.1.full">this critique</a>, also published in Science (pointing out the uniqueness and straw man problems).
+
+<br /><br />Full disclosure: I am a partisan in this debate. I have argued that the moral imperative points toward, rather than away from, publicly accessible deidentified databases in <a href="http://jolt.law.harvard.edu/articles/pdf/v25/25HarvJLTech1.pdf">Tragedy of the Data Commons</a>. In more recent <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2795808">experimental work</a>, I found that consumers do not seem to care about reidentification risk (whereas they do care about the sale of data to pharmaceutical companies).
+
+      				</li>
       	</ul>
 
  
@@ -522,13 +522,17 @@
       	<ul>
       		<li><a href="http://www.hhs.gov/hipaa/for-professionals/privacy/guidance/access/">Individuals’ Right under HIPAA to Access their Health Information 45 CFR § 164.524</a>
       		</li>
+      		<li>The public controversy over Facebook’s secret research spilled into the policy sphere: Is consent and IRB review the right model? Many perspectives were captured in <a href="http://ctlj.colorado.edu/?page_id=238">this symposium issue</a> of the Colorado Technology Law Journal. And Jane Bambauer's perspective, which is highly skeptical of both consent and IRB review (favoring risk-based regulation of research instead), <a href="http://luc.edu/media/lucedu/law/students/publications/llj/pdfs/vol47/issue2/J. Bambauer.pdf">is available here</a>.
+      				</li>
       	</ul>
 
-<h3 id="topic=9">Other</h3>
+<h3 id="topic=9">Other Stuff</h3>
 	<ul>
 		<li>Wilbanks, John (2012) <a href="https://www.ted.com/talks/john_wilbanks_let_s_pool_our_medical_data?language=en">Let's pool our medical data"</a> TED Global (Video)</li>
 				<li>
       					<strong>Have your say!</strong> This <a href="https://surveys.genomethics.org/action/Survey/uDy36sxoQIy9f0FGIItwQQ">global survey on online health data use</a> was developed by the Global Alliance for Genomics & Health. Findings will help shape policies and governance models. 
+      				</li>
+      				<li>The UN Global Pulse project is an example of the social value of pooled, accessible research data: <a href="http://www.unglobalpulse.org/">http://www.unglobalpulse.org/</a>.
       				</li>
 	</ul>
 	
