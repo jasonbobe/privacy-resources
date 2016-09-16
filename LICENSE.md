@@ -1,3 +1,3 @@
-All content of this repo is released under the CC-BY 4.0 license, with attribution required to **Jason Bobe and contributors**.
+To the extent possible under law, Jason Bobe has waived all copyright and related or neighboring rights to Privacy Resources. This work as been dedicated to the public domain. This work is published from: United States.
 
-Read the [full-text of the license](https://creativecommons.org/licenses/by/4.0/legalcode), or a [succinct summary](https://creativecommons.org/licenses/by/4.0/).
+Read about [public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/)
